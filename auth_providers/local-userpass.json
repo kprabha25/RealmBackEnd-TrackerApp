@@ -1,0 +1,12 @@
+{
+    "id": "60338593ac4ee1fe033ead93",
+    "name": "local-userpass",
+    "type": "local-userpass",
+    "config": {
+        "autoConfirm": true,
+        "resetPasswordSubject": "Reset Passwords for Realm",
+        "resetPasswordUrl": "https://www.lookman.in/hmisrealm",
+        "runConfirmationFunction": false
+    },
+    "disabled": false
+}

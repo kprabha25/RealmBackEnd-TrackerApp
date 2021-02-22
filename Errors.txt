@@ -1,0 +1,586 @@
+Microsoft Windows [Version 10.0.18363.1379]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+Deployed app is identical to proposed version, nothing to do.
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli import
+Deployed app is identical to proposed version, nothing to do.
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: must specify unique names when importing Services; duplicate name: mongodb-atlas
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: must specify unique names when importing Auth Providers; duplicate name: api-key
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: a ProviderConfig requires a Name
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: must specify service name
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to parse D:\Prabha\Local\MongoRealm\tasktracker\services\mongodb-atlas\config.json: invalid character '"' after object key:value pair
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: error validating Auth Provider: api-key01: provider name does not match provider type 'api-key'
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: auth provider not found
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: auth provider not found
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: auth provider not found
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: must specify unique IDs or omit them entirely when importing Auth Providers. Duplicate ID: 6033646c8a445779ecb83148. If you are attempting to create a new Auth Provider, please remove the 'id' field from one of the config files containing the duplicate ID.
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: must specify unique names when importing Auth Providers; duplicate name: anon-user
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: must provide an existing ID when attempting to update Auth Providers. Unable to locate ID: '6033646c8a445779ecb83148'. If you are attempting to create new Auth Providers, please ensure that you have removed the 'id' field from all new config files.
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: auth provider not found
+
+D:\Prabha\Local\MongoRealm\tasktracker>code .
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: must specify unique names when importing Auth Providers; duplicate name: anon-user
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: auth provider not found
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: auth provider not found
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: must specify unique names when importing Auth Providers; duplicate name: anon-user
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: must specify unique names when importing Auth Providers; duplicate name: anon-user
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: must provide an existing ID when attempting to update Auth Providers. Unable to locate ID: '6033646c8a445779ecb83149'. If you are attempting to create new Auth Providers, please ensure that you have removed the 'id' field from all new config files.
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: must specify unique names when importing Auth Providers; duplicate name: api-key
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: must specify unique names when importing Auth Providers; duplicate name: anon-user
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: must specify unique names when importing Auth Providers; duplicate name: anon-user
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: error validating Auth Provider: api-key01: provider name does not match provider type 'api-key'
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: auth provider not found
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: must specify unique names when importing Auth Providers; duplicate name: anon-user
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff--strategy=replace
+Usage: realm-cli.exe [--version] [--help] <command> [<args>]
+
+Available commands are:
+    diff       View the changes you would make to the current app without importing the changes.
+    export     Export a realm application to a local directory.
+    import     Import and deploy a realm application from a local directory.
+    login      Log in using an Atlas Programmatic API Key
+    logout     Deauthenticate as an administrator.
+    secrets    Add or remove secrets for your Realm App.
+    whoami     Display Current User Info
+
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli --strategy=replace
+Usage: realm-cli.exe [--version] [--help] <command> [<args>]
+
+Available commands are:
+    diff       View the changes you would make to the current app without importing the changes.
+    export     Export a realm application to a local directory.
+    import     Import and deploy a realm application from a local directory.
+    login      Log in using an Atlas Programmatic API Key
+    logout     Deauthenticate as an administrator.
+    secrets    Add or remove secrets for your Realm App.
+    whoami     Display Current User Info
+
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+failed to diff app with currently deployed instance: error: must specify unique names when importing Auth Providers; duplicate name: anon-user
+
+D:\Prabha\Local\MongoRealm\tasktracker>realm-cli diff
+--- functions/createNewUserDocument/source.js
++++ functions/createNewUserDocument/source.js
+@@ -1 +1,15 @@
++exports = async function createNewUserDocument({user}) {
++  const cluster = context.services.get("mongodb-atlas");
++  const users = cluster.db("tracker").collection("User");
++  return users.insertOne({
++    _id: user.id,
++    _partition: `user=${user.id}`,
++    name: user.data.email,
++    canReadPartitions: [`user=${user.id}`],
++    canWritePartitions: [`project=${user.id}`],
++    memberOf: [
++      {"name": "My Project", "partition": `project=${user.id}`}
++    ],
++  });
++};
+
+
+--- functions/addTeamMember/config.json
++++ functions/addTeamMember/config.json
+@@ -1 +1,7 @@
++{
++    "id": "603386548a445779ecbc0310",
++    "name": "addTeamMember",
++    "private": false,
++    "run_as_system": true
++}
+
+
+--- functions/canReadPartition/config.json
++++ functions/canReadPartition/config.json
+@@ -1 +1,7 @@
++{
++    "id": "603386548a445779ecbc0311",
++    "name": "canReadPartition",
++    "private": false,
++    "run_as_system": true
++}
+
+
+--- functions/canReadPartition/source.js
++++ functions/canReadPartition/source.js
+@@ -1 +1,17 @@
++exports = async function(partitionValue) {
++  try {
++    const callingUser = context.user;
++
++    // The user custom data contains a canReadPartitions array that is managed
++    // by a system function.
++    const {canReadPartitions} = callingUser.custom_data;
++
++    // If the user's canReadPartitions array contains the partition, they may read the partition
++    return canReadPartitions && canReadPartitions.includes(partitionValue);
++
++  } catch (error) {
++    console.error(error);
++    return false;
++  }
++};
+
+
+--- functions/createNewUserDocument/config.json
++++ functions/createNewUserDocument/config.json
+@@ -1 +1,7 @@
++{
++    "can_evaluate": {},
++    "id": "603386548a445779ecbc0313",
++    "name": "createNewUserDocument",
++    "private": true
++}
+
+
+--- functions/getMyTeamMembers/config.json
++++ functions/getMyTeamMembers/config.json
+@@ -1 +1,7 @@
++{
++    "id": "603386548a445779ecbc0314",
++    "name": "getMyTeamMembers",
++    "private": false,
++    "run_as_system": true
++}
+
+
+--- functions/resetFunc/config.json
++++ functions/resetFunc/config.json
+@@ -1 +1,7 @@
++{
++    "can_evaluate": {},
++    "id": "603386548a445779ecbc0316",
++    "name": "resetFunc",
++    "private": false
++}
+
+
+--- functions/getMyTeamMembers/source.js
++++ functions/getMyTeamMembers/source.js
+@@ -1 +1,21 @@
++exports = async function() {
++  const cluster = context.services.get("mongodb-atlas");
++  const collection = cluster.db("tracker").collection("User");
++  const caller = context.user;
++  const projectPartition = `project=${caller.id}`;
++  const filter = {
++    $or: [
++      {"canReadPartitions": projectPartition}, // has my project id as a readable partition or
++      {"canWritePartitions": projectPartition}, // has my project id as a writeable partition
++    ], // and...
++    _id: {$ne: caller.id} // ...is not me
++  };
++  const projection = {
++    _id: 1,
++    name: 1
++  };
++  return await collection.find(filter, projection)
++    .sort({_id: 1})
++    .toArray();
++};
+
+
+--- functions/removeTeamMember/config.json
++++ functions/removeTeamMember/config.json
+@@ -1 +1,7 @@
++{
++    "id": "603386548a445779ecbc0315",
++    "name": "removeTeamMember",
++    "private": false,
++    "run_as_system": true
++}
+
+
+--- functions/removeTeamMember/source.js
++++ functions/removeTeamMember/source.js
+@@ -1 +1,36 @@
++exports = async function(email) {
++  const collection = context.services.get("mongodb-atlas").db("tracker").collection("User");
++  const filter = {name: email};
++  const memberToRemove = await collection.findOne(filter);
++  if (memberToRemove == null) {
++    return {error: `User ${email} not found`};
++  }
++  const callingUser = context.user;
++
++  if (memberToRemove._id === callingUser.id) {
++    return {error: "You cannot remove yourself from your team"};
++  }
++
++  const {canWritePartitions} = memberToRemove;
++
++  const projectPartition = `project=${callingUser.id}`;
++
++  if ((canWritePartitions == null) || !canWritePartitions.includes(projectPartition)) {
++    return {error: `User ${email} is not a member of your team`};
++  }
++
++  try {
++    return await collection.updateOne(
++      {_id: memberToRemove._id},
++      {$pull: {
++          canWritePartitions: projectPartition,
++          memberOf: {
++              partition: projectPartition,
++          }
++        }
++      });
++  } catch (error) {
++    return {error: error.toString()};
++  }
++};
+
+
+--- functions/resetFunc/source.js
++++ functions/resetFunc/source.js
+@@ -1 +1,56 @@
++
++  /*
++    This function will be run when the client SDK 'callResetPasswordFunction' and is called with an object parameter
++    which contains four keys: 'token', 'tokenId', 'username', and 'password', and additional parameters
++    for each parameter passed in as part of the argument list from the SDK.
++
++    The return object must contain a 'status' key which can be empty or one of three string values:
++      'success', 'pending', or 'fail'
++
++    'success': the user's password is set to the passed in 'password' parameter.
++
++    'pending': the user's password is not reset and the UserPasswordAuthProviderClient 'resetPassword' function would
++      need to be called with the token, tokenId, and new password via an SDK. (see below)
++
++      const Realm = require("realm");
++      const appConfig = {
++          id: "my-app-id",
++          timeout: 1000,
++          app: {
++              name: "my-app-name",
++              version: "1"
++          }
++        };
++      let app = new Realm.App(appConfig);
++      let client = app.auth.emailPassword;
++      await client.resetPassword(token, tokenId, newPassword);
++
++    'fail': the user's password is not reset and will not be able to log in with that password.
++
++    If an error is thrown within the function the result is the same as 'fail'.
++
++    Example below:
++
++    exports = ({ token, tokenId, username, password }, sendEmail, securityQuestionAnswer) => {
++      // process the reset token, tokenId, username and password
++      if (sendEmail) {
++        context.functions.execute('sendResetPasswordEmail', username, token, tokenId);
++        // will wait for SDK resetPassword to be called with the token and tokenId
++        return { status: 'pending' };
++      } else if (context.functions.execute('validateSecurityQuestionAnswer', username, securityQuestionAnswer)) {
++        // will set the users password to the password parameter
++        return { status: 'success' };
++      }
++
++      // will not reset the password
++      return { status: 'fail' };
++    };
++
++    The uncommented function below is just a placeholder and will result in failure.
++  */
++
++  exports = ({ token, tokenId, username, password }) => {
++    // will not reset the password
++    return { status: 'fail' };
++  };
+
+
+--- functions/addTeamMember/source.js
++++ functions/addTeamMember/source.js
+@@ -1 +1,35 @@
++exports = async function(email) {
++  const collection = context.services.get("mongodb-atlas").db("tracker").collection("User");
++  const filter = {name: email};
++  const newMember = await collection.findOne(filter);
++  if (newMember == null) {
++    return {error: `User ${email} not found`};
++  }
++  const callingUser = context.user;
++
++  if (newMember._id === callingUser.id) {
++    return {error: "You are already on your own team!"};
++  }
++
++  const projectPartition = `project=${callingUser.id}`;
++
++  if (newMember.canWritePartitions && newMember.canWritePartitions.includes(projectPartition)) {
++     return {error: `User ${email} is already a member of your team`};
++  }
++
++  try {
++    return await collection.updateOne(
++      {_id: newMember._id},
++      {$addToSet: {
++          canWritePartitions: projectPartition,
++          memberOf: {
++            name: `${callingUser.custom_data.name}'s Project`,
++            partition: projectPartition,
++          }
++        }
++      });
++  } catch (error) {
++    return {error: error.toString()};
++  }
++};
+
+
+--- functions/canWritePartition/config.json
++++ functions/canWritePartition/config.json
+@@ -1 +1,7 @@
++{
++    "id": "603386548a445779ecbc0312",
++    "name": "canWritePartition",
++    "private": false,
++    "run_as_system": true
++}
+
+
+--- functions/canWritePartition/source.js
++++ functions/canWritePartition/source.js
+@@ -1 +1,17 @@
++exports = async function(partitionValue) {
++  try {
++    const callingUser = context.user;
++
++    // The user custom data contains a canWritePartitions array that is managed
++    // by a system function.
++    const {canWritePartitions} = callingUser.custom_data;
++
++    // If the user's canWritePartitions array contains the partition, they may write to it
++    return canWritePartitions && canWritePartitions.includes(partitionValue);
++
++  } catch (error) {
++    console.error(error);
++    return false;
++  }
++};
+
+
+--- triggers/onNewUser.json
++++ triggers/onNewUser.json
+@@ -1 +1,14 @@
++{
++    "id": "603386548a445779ecbc0317",
++    "name": "onNewUser",
++    "type": "AUTHENTICATION",
++    "config": {
++        "operation_type": "CREATE",
++        "providers": [
++            "local-userpass"
++        ]
++    },
++    "function_name": "createNewUserDocument",
++    "disabled": false
++}
+
+
+--- services/tracker-serv/config.json
++++ services/tracker-serv/config.json
+@@ -1 +1,43 @@
++{
++    "id": "603386528a445779ecbc02c4",
++    "name": "tracker-serv",
++    "type": "mongodb-atlas",
++    "config": {
++        "clusterName": "AWS",
++        "readPreference": "primary",
++        "sync": {
++            "state": "enabled",
++            "database_name": "tracker",
++            "partition": {
++                "key": "_partition",
++                "type": "string",
++                "required": true,
++                "permissions": {
++                    "read": {
++                        "%%true": {
++                            "%function": {
++                                "arguments": [
++                                    "%%partition"
++                                ],
++                                "name": "canReadPartition"
++                            }
++                        }
++                    },
++                    "write": {
++                        "%%true": {
++                            "%function": {
++                                "arguments": [
++                                    "%%partition"
++                                ],
++                                "name": "canWritePartition"
++                            }
++                        }
++                    }
++                }
++            }
++        },
++        "wireProtocolEnabled": false
++    },
++    "version": 1
++}
+
+
+--- services/tracker-serv/rules/tracker.Task.json
++++ services/tracker-serv/rules/tracker.Task.json
+@@ -1 +1,43 @@
++{
++    "collection": "Task",
++    "database": "tracker",
++    "id": "603386548a445779ecbc0307",
++    "roles": [
++        {
++            "name": "default",
++            "apply_when": {},
++            "insert": true,
++            "delete": true,
++            "search": true,
++            "additional_fields": {}
++        }
++    ],
++    "schema": {
++        "bsonType": "object",
++        "properties": {
++            "_id": {
++                "bsonType": "objectId"
++            },
++            "_partition": {
++                "bsonType": "string"
++            },
++            "name": {
++                "bsonType": "string"
++            },
++            "owner": {
++                "bsonType": "string"
++            },
++            "status": {
++                "bsonType": "string"
++            }
++        },
++        "required": [
++            "_id",
++            "_partition",
++            "name",
++            "status"
++        ],
++        "title": "Task"
++    }
++}
+
+
+--- services/tracker-serv/rules/tracker.User.json
++++ services/tracker-serv/rules/tracker.User.json
+@@ -1 +1,50 @@
++{
++    "collection": "User",
++    "database": "tracker",
++    "id": "603386548a445779ecbc0308",
++    "roles": [
++        {
++            "name": "default",
++            "apply_when": {},
++            "insert": true,
++            "delete": true,
++            "search": true,
++            "additional_fields": {}
++        }
++    ],
++    "schema": {
++        "properties": {
++            "_id": {
++                "bsonType": "string"
++            },
++            "_partition": {
++                "bsonType": "string"
++            },
++            "memberOf": {
++                "bsonType": "array",
++                "items": {
++                    "bsonType": "object",
++                    "properties": {
++                        "name": {
++                            "bsonType": "string"
++                        },
++                        "partition": {
++                            "bsonType": "string"
++                        }
++                    },
++                    "title": "Project"
++                }
++            },
++            "name": {
++                "bsonType": "string"
++            }
++        },
++        "required": [
++            "_id",
++            "_partition",
++            "name"
++        ],
++        "title": "User"
++    }
++}
+
+
+
+D:\Prabha\Local\MongoRealm\tasktracker>

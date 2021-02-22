@@ -1,0 +1,42 @@
+{
+    "id": "603386beac4ee1fe033ed029",
+    "name": "tracker-serv",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "AWS",
+        "readPreference": "primary",
+        "sync": {
+            "state": "enabled",
+            "database_name": "tracker",
+            "partition": {
+                "key": "_partition",
+                "type": "string",
+                "required": true,
+                "permissions": {
+                    "read": {
+                        "%%true": {
+                            "%function": {
+                                "arguments": [
+                                    "%%partition"
+                                ],
+                                "name": "canReadPartition"
+                            }
+                        }
+                    },
+                    "write": {
+                        "%%true": {
+                            "%function": {
+                                "arguments": [
+                                    "%%partition"
+                                ],
+                                "name": "canWritePartition"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "wireProtocolEnabled": false
+    },
+    "version": 1
+}
